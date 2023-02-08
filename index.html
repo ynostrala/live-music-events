@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Audiowide&display=swap" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="./img/logo-letras.png">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Live Music Events - Inicio</title>
+    </head>
+
+    <body>
+        <header id="header"> <!-- creo un id para usar el grid -->
+            <section class="header">
+                <a class="header__logo" href="#"><img src="./img/logo_white_large.png" alt="logo"></a>
+                <nav class="header__botones">
+                    <a href="#">Inicio</a>
+                    <a href="./pag/entradas.html">Entradas</a>
+                    <a href="./pag/productos.html">Productos</a>
+                    <a href="./pag/proximos-eventos.html">Proximos Eventos</a>
+                    <a href="./pag/sobre-nosotros.html">Sobre Nosotros</a>
+                    <a href="./pag/contacto.html">Contacto</a>
+                </nav>
+                <nav class="header__botones">  
+                    <a href="">Iniciar Sesion</a> 
+                    <a href=""><img src="./img/carrito-de-compras.png" alt=""></a>
+                </nav>
+            </section>
+        </header>
+
+        <main id="main">
+            <!-- BANNER HOME -->
+            <section class="parallax banner-inicio--img"> <!-- parallax -->
+                <img class="banner-logo" src="./img/logo_white_large.png" alt="logo-banner"> 
+                <h1 class="texto-bienvenida">LIVE MUSIC EVENTS</h1>
+            </section>
+
+            <!-- SECCION PRINCIPAL -->
+            <section class="home-principal">
+                <h1>Eventos Destacados</h1>
+                <article class="publicacion"> <!-- publicacion 1 -->
+                    <img src="./img/arjona.jpg" alt="artista1">
+                    <div class="publicaciones__contenido">
+                        <h2 class="pubilcaciones__contenido--titulo texto-izq">Ricardo Arjona</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro id accusamus, rerum ducimus repudiandae similique saepe iure amet sed dolorem aspernatur vel fugit nobis adipisci labore accusantium aliquam corrupti asperiores.</p>
+                        <p>Fecha: 12/05/2023</p>
+                        <p>Horario: 21:00hs</p>
+                        <p>Lugar: Estadio Popular</p>
+                        <p class="pubilcaciones__contenido--precio">Precio: $5500</p>
+                        <button href="">Comprar</button>
+                    </div>
+                </article> <!-- fin publicacion 1 -->
+
+                <article class="publicacion"> <!-- publicacion 2 -->
+                    <div class="publicaciones__contenido texto-der">
+                        <h2 class="pubilcaciones__contenido--titulo">Lali Esposito</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nobis cupiditate placeat optio voluptatum aut veritatis quae, deleniti nisi adipisci a assumenda animi corporis eius voluptatibus officiis ex. Labore, suscipit.</p>
+                        <p>Fecha: 26/07/2023</p>
+                        <p>Horario: 22:00hs</p>
+                        <p>Lugar: Anfiteatro Parque Sarmiento</p>
+                        <p class="pubilcaciones__contenido--precio">Precio: $6800</p>
+                        <button href="">Comprar</button>
+                    </div>
+                    <img src="./img/lali.jpg" alt="artista2">
+                </article> <!-- fin publicacion 2 -->
+            </section>
+
+            <!-- SECCION SECUNDARIA -->
+            <section class="parallax2 banner-inicio--img2 home-secundario"> 
+                <article class="caja-productos"> <!-- cajas de productos -->
+                    <h2 class="caja-productos--titulo">Productos Destacados</h2>
+                    <div class="caja-productos--prod">
+                        <div class="prod__caja">
+                            <img src="./img/prod1.jpg" alt="">
+                            <h3> Remera Rolling Stones</h3>
+                            <h3> $9500</h3>
+                            <a href="">Ver</a>
+                        </div>
+                        <div class="prod__caja">
+                            <img src="./img/prod2.jpg" alt="">
+                            <h3> Remera Fender</h3>
+                            <h3> $8700</h3>
+                            <a href="">Ver</a>
+                        </div>
+                        <div class="prod__caja">
+                            <img src="./img/prod3.jpg" alt="">
+                            <h3> Remera Metallica</h3>
+                            <h3> $9800</h3>
+                            <a href="">Ver</a>
+                        </div>
+                    </div>
+                </article> <!-- fin de cajas de productos -->
+
+                <article class="proximos-eventos__home-caja">  <!-- cartel proximos eventos -->
+                    <h2>PROXIMAS FUNCIONES</h2>
+                    <div class="proximos-eventos__home--grilla">
+                        <img src="./img/elleon.jpg" alt="">
+                        <h3>Artista: León Gieco</h3>
+                    </div>
+                    <div class="proximos-eventos__home--grilla">
+                        <img src="./img/elsalmon.jpg" alt="">
+                        <h3>Artista: Andrés Calamaro</h3>
+                    </div>
+                    <div class="proximos-eventos__home--grilla">
+                        <img src="./img/larenga.jpg" alt="">
+                        <h3>Artista: La Renga</h3>
+                    </div>
+                    <div class="proximos-eventos__home--grilla">
+                        <img src="./img/laloba.jpg" alt="">
+                        <h3>Artista: Shakira</h3>
+                    </div>
+                    <div class="proximos-eventos__home--grilla">
+                        <img src="./img/lajoaqui.jpg" alt="">
+                        <h3>Artista: La Joaqui</h3>
+                    </div>
+                </article> <!-- fin cartel proximos eventos -->
+            </section>   
+        </main>
+
+        <footer id="footer">
+            <section class="footer">
+                <p class="footer__nombre">LIVE MUSIC EVENTS</p>
+                <p class="footer__copyright">Copyright © 2023 Nostrala Yamil. Todos los derechos reservados.</p>
+                <div class="redes-sociales">
+                    <a href=""><img src="./img/instagram.png" alt=""></a>
+                    <a href=""><img src="./img/facebook.png" alt=""></a>
+                    <a href=""><img src="./img/twitter.png" alt=""></a>
+                </div>
+                <div class="enlaces__links">
+                    <a href="./pag/contacto.html">Contacto</a>
+                    <a href="./pag/sobre-nosotros.html">Sobre Nosotros</a>
+                    <a href="">Terminos y Condiciones</a>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
