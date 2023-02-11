@@ -83,7 +83,7 @@ body{
 
 /* FOOTER */
 .footer{    
-    background-color:#EDCB8Cff ;
+    background-color:#130408 ;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -93,7 +93,7 @@ body{
 }
 
 .footer__nombre{
-    color:black;
+    color:white;
     font-family: 'Abel', sans-serif;
     font-family: 'Audiowide', cursive;
 	font-size: 30px;
@@ -112,10 +112,14 @@ body{
     flex-wrap: wrap;
 }
 
+.footer__copyright{
+    color: white;
+}
+
 .enlaces__links a{
     margin: 0 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /*BANNER HOME*/
@@ -151,11 +155,7 @@ body{
     font-family: 'Audiowide', cursive;
 	font-size: 50px;
 	font-weight: bold;
-	left: 10%;
-	position: absolute;
 	text-align: center;
-	top:80%;
-	width: 80%
 }
 
 /* BANNER LOGOS */
@@ -181,13 +181,11 @@ body{
     height: 100px;
     padding: 10px;
     margin: 20px;
-    /* border: 3px solid black;
-    border-radius: 100%; */
 }
 
 .logos-menu__cajas img:hover{
     animation-name: animacion-logo;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction:normal;
@@ -206,8 +204,11 @@ body{
 
 .home-principal h1{
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 700;
+    margin: 10px 30px;
+    padding: 10px 30px;
 }
+
 
 .publicacion{
     display: flex;
@@ -234,9 +235,6 @@ body{
     align-items: flex-start;
 }
 
-.texto-der{
-    align-items: flex-end;
-}
 
 .pubilcaciones__contenido--titulo{
     font-size: 30px;
@@ -278,46 +276,28 @@ body{
 	position: relative
 }
 
+/* PATROCINIOS HOME */
+
+.patrocinios{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.patrocinios img{
+    height: 120px;
+    padding: 20px 60px;
+}
+
 /* Parallax imagen fondo 2 */
 .banner-inicio--img2{
     background-image: url(../img/audience-1867754_1920.jpg);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-/* PATROCINIOS HOME */
-
-.patrocinios{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items:center;   
-    padding: 10px;
-    background-color: #130408;
-    opacity: 0.85;
-}
-
-.patrocinios h3{
-    font-size: 25px;
-    font-weight: 700;
-    color: white;
-    align-items: center;
-    padding: 10px;
-}
-
-.patrocinio__caja{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.patrocinio__caja img{
-    width: auto;
-    height: 120px;
-    padding: 20px 60px;
 }
 
 /*SECCION SECUNDARIA HOME*/
@@ -328,7 +308,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 100px;
+    padding: 100px 50px;
 }
 
 .caja-productos{
@@ -338,6 +318,7 @@ body{
     border-color: #130408;
     opacity: 0.9;
     margin: 10px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -393,7 +374,7 @@ body{
 }
 
 .proximos-eventos__home-caja{
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
     border: 5px solid black;
     border-radius: 50px;
@@ -530,6 +511,10 @@ body{
 .entradas-principal{
     margin: 1% 8%;   
     padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.85;
 }
 
 .banner-entradas--img{
@@ -568,12 +553,24 @@ body{
     padding: 50px;
 }
 
-.proximos-eventos{
+#proximos-eventos{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+    margin: 1% 8%;   
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.85;
+}
+
+.proximos-eventos{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 
 .proximos-eventos__caja{
@@ -593,12 +590,6 @@ body{
     font-size: 20px;
 }
 
-#main h1{
-    font-size: 40px;
-    font-weight: 700;
-    margin: 10px 30px;
-    padding: 10px 30px;
-}
 
 .proximos-eventos__caja a{
     font-size: 20px;
@@ -656,4 +647,69 @@ body{
     100%{
         transform: rotate(-1deg);
     }
+}
+
+/* MEDIAS QUERIES */
+
+@media (max-width:576px) {
+    .header{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__logo img{
+        padding: 10px;
+    }
+
+    .header__botones{
+        flex-direction: column;
+    }
+    
+    
+    .banner-logo{
+        width: 300px;
+    }
+
+    .logos-menu__cajas{
+        margin: 10px;
+        padding: 5px;
+    }
+    
+    .logos-menu__cajas img{
+        height: 80px;
+        padding: 5px;
+    }
+
+    .home-principal{
+        margin: 1% 4%;
+    }
+
+    .home-principal h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .publicacion{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .publicacion img{
+        margin: 5px 0px;
+        width: auto;
+        height: 200px;
+    }
+
+    .footer{
+        justify-content: center;
+        text-align: center;
+    }
+    .redes-sociales{
+        padding: 10px;
+        align-items: center;
+    }
+
 }
