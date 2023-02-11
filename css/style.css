@@ -14,6 +14,7 @@ body{
         "main main main main"
         "foot foot foot foot";
 }
+
 #header{
     grid-area:header;
 }
@@ -698,10 +699,6 @@ body{
         align-items: center;
     }
 
-    .parallax{
-        height:auto;
-    }
-
     .entradas-principal{
         margin: 1% 2%;   
         padding: 10px 10px;
@@ -718,7 +715,7 @@ body{
         font-size: 20px;
         margin: 10px;
     }
-
+    
     .texto-bienvenida3{
         font-size: 35px;
         padding: 10px;
