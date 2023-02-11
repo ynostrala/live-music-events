@@ -14,7 +14,6 @@ body{
         "main main main main"
         "foot foot foot foot";
 }
-
 #header{
     grid-area:header;
 }
@@ -25,17 +24,6 @@ body{
 #footer{
     grid-area:foot;
 }
-
-
-
-/* paleta colores 
-    --dark-sienna: #3F1214ff;
-    --gold-crayola: #EDCB8Cff;
-    --xiketic: #1F090Cff;
-    --caput-mortuum: #5E241Fff;
-    --russet: #854327ff;
-*/
-
 
 /*HEADER*/
 .header{
@@ -129,7 +117,7 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:  cover;
-	height:40rem;
+	height:800px;
 	max-width: 100%;
 	position: relative
 }
@@ -209,7 +197,6 @@ body{
     padding: 10px 30px;
 }
 
-
 .publicacion{
     display: flex;
     flex-direction: row;
@@ -234,7 +221,6 @@ body{
 .texto-izq{
     align-items: flex-start;
 }
-
 
 .pubilcaciones__contenido--titulo{
     font-size: 30px;
@@ -506,8 +492,7 @@ body{
     text-align: justify;
 }
 
-/* ENTRADAS ok*/
-
+/* ENTRADAS */
 .entradas-principal{
     margin: 1% 8%;   
     padding: 10px 50px;
@@ -590,7 +575,6 @@ body{
     font-size: 20px;
 }
 
-
 .proximos-eventos__caja a{
     font-size: 20px;
     text-decoration: none;
@@ -600,7 +584,6 @@ body{
     background-color: #e8e2e3;
     color: black;
 }
-
 
 /* ANIMACIONES */
 @keyframes animacion-logo{
@@ -650,7 +633,6 @@ body{
 }
 
 /* MEDIAS QUERIES */
-
 @media (max-width:576px) {
     .header{
         flex-direction: column;
@@ -658,6 +640,7 @@ body{
         justify-content: space-between;
         align-items: center;
     }
+
     .header__logo img{
         padding: 10px;
     }
@@ -665,7 +648,6 @@ body{
     .header__botones{
         flex-direction: column;
     }
-    
     
     .banner-logo{
         width: 300px;
@@ -697,6 +679,10 @@ body{
         margin: 5px;
     }
 
+    .publicaciones__contenido{
+        align-items: center;
+    }
+
     .publicacion img{
         margin: 5px 0px;
         width: auto;
@@ -712,4 +698,66 @@ body{
         align-items: center;
     }
 
+    .parallax{
+        height:auto;
+    }
+
+    .entradas-principal{
+        margin: 1% 2%;   
+        padding: 10px 10px;
+    }
+
+    .banner-entradas--img {
+        padding: 5px;
+    }
+
+    .banner-productos--img h3,
+    .nosotros p,
+    .banner-entradas--img p,
+    .banner-sobre-nosotros--img P {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .texto-bienvenida3{
+        font-size: 35px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .banner-sobre-nosotros--img {
+        padding: 0;
+    }
+
+    #proximos-eventos {
+        margin: 2% 2%; 
+        padding: 5px;
+        align-items: center;
+    }
+    
+    .proximos-eventos {
+        justify-content: center;
+    }
+
+    .proximos-eventos__caja {
+        margin: 0;
+    }
+
+    .banner-contacto--img {
+        padding: 0;
+    }
+
+    .formulario-contacto {
+        padding: 5px;
+        align-items: normal;
+    }
+
+    .boton-contacto {
+        margin: 10px;
+    }
+
+    .texto-bienvenida2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
 }
