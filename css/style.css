@@ -403,11 +403,6 @@ body{
 /* parallax imagen contacto*/
 .banner-contacto--img{
     background-image: url(../img/hd-wallpaper-1056764_1920.jpg);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     padding: 60px;
     opacity: 0.85;
 }
@@ -416,9 +411,10 @@ body{
     color:#ffff;
     font-family: 'Abel', sans-serif;
     font-family: 'Audiowide', cursive;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .formulario-contacto{
@@ -427,7 +423,8 @@ body{
     font-weight: 700;
     text-align: center;
     font-size: 18x;
-    padding: 20px 20px;
+    padding: 10px 5px;
+    margin: 5px;
     background-color: black;
     opacity: 0.8;
     display: flex;
@@ -439,13 +436,11 @@ body{
 
 .texto-formulario{
     padding: 5px 20px;
-    margin: 10px 50px;
 }
 
 .boton-contacto{
     text-decoration: none;
-    padding: 5px 50px;
-    margin: 5px 150px;
+    padding: 5px;
 }
 
 /*SOBRE NOSOTROS*/
@@ -707,6 +702,12 @@ body{
         justify-content: center;
         text-align: center;
     }
+    
+    .footer{
+        justify-content: center;
+        text-align: center;
+    }
+
     .redes-sociales{
         padding: 10px;
         align-items: center;
@@ -784,6 +785,7 @@ body{
         justify-content: center;
         text-align: center;
     }
+
     .redes-sociales{
         padding: 10px;
         align-items: center;
@@ -802,4 +804,5 @@ body{
     .header__botones{
         flex-direction: row;
     }
+    
 }
