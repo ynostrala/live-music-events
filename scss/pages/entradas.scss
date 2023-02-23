@@ -1,0 +1,23 @@
+/* ENTRADAS */
+.entradas-principal{
+    margin: 1% 8%;   
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.85;
+    h2{
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.banner-entradas--img{
+    background-image: url(../img/banner-entradas.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    opacity: 0.85;
+}

@@ -1,0 +1,25 @@
+//general
+@import "./general/general.scss";
+@import "./general/grid.scss";
+@import "./general/colors.scss";
+@import "./general/typography.scss";
+
+//layouts
+@import "./layouts/header.scss";
+@import "./layouts/footer.scss";
+
+//pages
+@import "./pages/index.scss";
+@import "./pages/entradas.scss";
+@import "./pages/productos.scss";
+@import "./pages/proximos-eventos.scss";
+@import "./pages/sobre-nosotros.scss";
+@import "./pages/contacto.scss";
+
+
+//animaciones
+@import "./general/animaciones.scss";
+
+//queries
+@import "./general/queries.scss";
+

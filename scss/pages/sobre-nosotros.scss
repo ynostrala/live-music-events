@@ -1,0 +1,21 @@
+
+/*SOBRE NOSOTROS*/
+
+.banner-sobre-nosotros--img{
+    background-image: url(../img/guitars-2912447_1920.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    opacity: 0.9;
+}
+
+.nosotros{
+    img{
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
+    }
+}
+

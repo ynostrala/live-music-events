@@ -1,0 +1,265 @@
+/*INDEX*/
+/* Efecto Parallax pantalla Home */
+.parallax{
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:800px;
+	max-width: 100%;
+	position: relative
+}
+
+.banner-inicio--img{
+    background-image: url(../img/concert-3387324_1920.jpg);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-logo{
+    width: 500px;
+}
+
+.texto-bienvenida{
+    color:#ffff;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Audiowide', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* BANNER LOGOS */
+.logos-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.908);
+}
+
+.logos-menu__cajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    img{
+        height: 100px;
+        padding: 10px;
+        margin: 20px;
+        &:hover{
+            animation-name: animacion-logo;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction:normal;
+        }
+    }
+}
+
+/*Home Seccion Principal*/
+.home-principal{
+    margin: 1% 8%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.85;
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        margin: 10px 30px;
+        padding: 10px 30px;
+    }
+}
+
+.publicacion{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 20px;
+    img{
+        margin: 10px 0px;
+        width: 500px;
+        height: auto;
+    }
+}
+
+.publicaciones__contenido{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px 30px;
+    p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    button{
+        text-decoration:none;
+        font-weight: 600;
+        font-size: 17px;
+        color:#ffffff;
+        width: 100px;
+        height: 40px;
+        padding:5px ;
+        border-radius: 8px;
+        background-color:rgb(112, 109, 102);
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+.pubilcaciones__contenido--titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pubilcaciones__contenido--precio{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.parallax2{
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:auto;
+	max-width: auto;
+	position: relative
+}
+
+/* PATROCINIOS HOME */
+
+.patrocinios{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 120px;
+        padding: 20px 60px;
+    }
+}
+
+/* Parallax imagen fondo 2 */
+.banner-inicio--img2{
+    background-image: url(../img/audience-1867754_1920.jpg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*SECCION SECUNDARIA HOME*/
+
+.home-secundario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.caja-productos{
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: rgb(255, 252, 248);
+    border-color: #130408;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja-productos--titulo{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.caja-productos--prod{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.prod__caja{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #e8e2e3;
+    img{
+        width: 150px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 30px;
+    }
+    h3{
+        font-weight: 700;
+    }
+    a{
+        text-decoration:none;
+        font-weight: 500;
+        font-size: 12px;
+        color:#ffffff;
+        padding: 3px 10px;
+        margin: 5px;
+        background-color:rgb(112, 109, 102);
+        border-radius: 3px;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+    }
+}
+
+.proximos-eventos__home-caja{
+    padding: 50px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color:#3F1214ff;
+    opacity: 0.8;
+    h2{
+        color: #ffff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+}
+
+.proximos-eventos__home--grilla{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        width: 90px;
+        margin: 5px;
+        padding: 5px;
+    }
+    h3{
+        color: white;
+        font-size: 15px;
+    }
+
+}

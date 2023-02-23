@@ -1,0 +1,140 @@
+
+/* MEDIAS QUERIES */
+@media (max-width:576px) {
+    .header{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__logo{
+        img{
+            padding: 10px;
+        }
+    }
+    .header__botones{
+        flex-direction: column;
+    } 
+    .banner-logo{
+        width: 300px;
+    }
+    .logos-menu__cajas{
+        margin: 10px;
+        padding: 5px;
+        img{
+            height: 80px;
+            padding: 5px;
+        }
+    }
+    .home-principal{
+        margin: 1% 4%;
+        h1{
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+    .publicacion{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+        img{
+            margin: 5px 0px;
+            width: auto;
+            height: 200px;
+        }
+    }
+    .publicaciones__contenido{
+        align-items: center;
+    }
+    .footer{
+        justify-content: center;
+        text-align: center;
+    }
+    .redes-sociales{
+        padding: 10px;
+        align-items: center;
+    }
+    .entradas-principal{
+        margin: 1% 2%;   
+        padding: 10px 10px;
+    }
+    .banner-entradas--img {
+        padding: 5px;
+    }
+    .banner-productos--img h3,
+    .nosotros p,
+    .banner-entradas--img p,
+    .banner-sobre-nosotros--img P {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .texto-bienvenida3{
+        font-size: 35px;
+        padding: 10px;
+        text-align: center;
+    }
+    .banner-sobre-nosotros--img {
+        padding: 0;
+    }
+    #proximos-eventos {
+        margin: 2% 2%; 
+        padding: 5px;
+        align-items: center;
+    }
+    .proximos-eventos {
+        justify-content: center;
+    }
+    .proximos-eventos__caja {
+        margin: 0;
+    }
+    .banner-contacto--img {
+        padding: 0;
+    }
+    .formulario-contacto {
+        padding: 5px;
+        align-items: normal;
+    }
+    .boton-contacto {
+        margin: 10px;
+    }
+    .texto-bienvenida2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width:576px) and (max-width:992px) {
+    .parallax{
+        height: 100%;
+    }
+    .banner-sobre-nosotros--img{
+        p {
+            margin: 0;
+        }
+    }
+    .footer{
+        justify-content: center;
+        text-align: center;
+    }
+    .redes-sociales{
+        padding: 10px;
+        align-items: center;
+    }
+    .header{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header__logo{
+        img{
+            padding: 10px;
+            width: 300px;
+            height: auto;
+        }
+    }
+    .header__botones{
+        flex-direction: row;
+    }
+}

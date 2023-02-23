@@ -1,0 +1,624 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html, body, .container-fluid {
+  height: 100%; }
+
+.texto-izq {
+  align-items: flex-start; }
+
+.texto-bienvenida2 {
+  color: #ffff;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.texto-bienvenida3 {
+  color: #ffff;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Audiowide', cursive;
+  font-size: 50px;
+  font-weight: bold; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.banner-productos--img h3,
+.nosotros p,
+.banner-entradas--img p,
+.banner-sobre-nosotros--img P {
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+  padding: 20px;
+  text-align: justify; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  opacity: 0.6; }
+
+.banner-img {
+  display: flex;
+  padding: 40px; }
+
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "header header header header" "main main main main" "foot foot foot foot"; }
+
+#header {
+  grid-area: header; }
+
+#main {
+  grid-area: main;
+  background-color: #2c2c2c; }
+
+#footer {
+  grid-area: foot; }
+
+body {
+  background-color: whitesmoke; }
+
+#main {
+  background-color: #2c2c2c; }
+
+body {
+  font-family: 'Abel', sans-serif; }
+
+/*HEADER*/
+.header {
+  background-color: #130408;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__logo img {
+  width: 150px;
+  height: 80px; }
+
+.header__botones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+  .header__botones a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px; }
+    .header__botones a:hover {
+      background-color: white;
+      color: black;
+      opacity: 0.8; }
+  .header__botones img {
+    border-radius: 100px;
+    background-color: #EDCB8Cff;
+    padding: 5px;
+    width: 30px;
+    height: 30px; }
+
+/* FOOTER */
+.footer {
+  background-color: #130408;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; }
+
+.footer__nombre {
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
+  font-weight: bold; }
+
+.redes-sociales img {
+  margin: 0 20px;
+  width: 30px;
+  height: 30px; }
+
+.enlaces__links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .enlaces__links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white; }
+
+.footer__copyright {
+  color: white; }
+
+/*INDEX*/
+/* Efecto Parallax pantalla Home */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  max-width: 100%;
+  position: relative; }
+
+.banner-inicio--img {
+  background-image: url(../img/concert-3387324_1920.jpg);
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+
+.banner-logo {
+  width: 500px; }
+
+.texto-bienvenida {
+  color: #ffff;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Audiowide', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }
+
+/* BANNER LOGOS */
+.logos-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.908); }
+
+.logos-menu__cajas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px; }
+  .logos-menu__cajas img {
+    height: 100px;
+    padding: 10px;
+    margin: 20px; }
+    .logos-menu__cajas img:hover {
+      animation-name: animacion-logo;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-direction: normal; }
+
+/*Home Seccion Principal*/
+.home-principal {
+  margin: 1% 8%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  opacity: 0.85; }
+  .home-principal h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 30px;
+    padding: 10px 30px; }
+
+.publicacion {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px; }
+  .publicacion img {
+    margin: 10px 0px;
+    width: 500px;
+    height: auto; }
+
+.publicaciones__contenido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px 30px; }
+  .publicaciones__contenido p {
+    font-size: 18px;
+    text-align: justify; }
+  .publicaciones__contenido button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #706d66;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; }
+
+.pubilcaciones__contenido--titulo {
+  font-size: 30px;
+  font-weight: bold; }
+
+.pubilcaciones__contenido--precio {
+  font-size: 18px;
+  font-weight: 700; }
+
+.parallax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  max-width: auto;
+  position: relative; }
+
+/* PATROCINIOS HOME */
+.patrocinios {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .patrocinios img {
+    height: 120px;
+    padding: 20px 60px; }
+
+/* Parallax imagen fondo 2 */
+.banner-inicio--img2 {
+  background-image: url(../img/audience-1867754_1920.jpg);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+/*SECCION SECUNDARIA HOME*/
+.home-secundario {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 50px; }
+
+.caja-productos {
+  border: 5px solid black;
+  border-radius: 50px;
+  background-color: #fffcf8;
+  border-color: #130408;
+  opacity: 0.9;
+  margin: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column; }
+
+.caja-productos--titulo {
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center; }
+
+.caja-productos--prod {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.prod__caja {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #e8e2e3; }
+  .prod__caja img {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px; }
+  .prod__caja h3 {
+    font-weight: 700; }
+  .prod__caja a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 3px 10px;
+    margin: 5px;
+    background-color: #706d66;
+    border-radius: 3px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; }
+
+.proximos-eventos__home-caja {
+  padding: 50px;
+  margin: 20px;
+  border: 5px solid black;
+  border-radius: 50px;
+  background-color: #3F1214ff;
+  opacity: 0.8; }
+  .proximos-eventos__home-caja h2 {
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px; }
+
+.proximos-eventos__home--grilla {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .proximos-eventos__home--grilla img {
+    width: 90px;
+    margin: 5px;
+    padding: 5px; }
+  .proximos-eventos__home--grilla h3 {
+    color: white;
+    font-size: 15px; }
+
+/* ENTRADAS */
+.entradas-principal {
+  margin: 1% 8%;
+  padding: 10px 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  opacity: 0.85; }
+  .entradas-principal h2 {
+    font-size: 40px;
+    font-weight: bold; }
+
+.banner-entradas--img {
+  background-image: url(../img/banner-entradas.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  opacity: 0.85; }
+
+/*PRODUCTOS ok*/
+.banner-productos--img {
+  background-image: url(../img/musician-664432_1920.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  opacity: 0.85; }
+
+/* PROXIMOS EVENTOS*/
+.banner-proximos-eventos--img {
+  background-image: url(../img/banner-proximosEventos.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  opacity: 0.85; }
+
+#proximos-eventos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 1% 8%;
+  padding: 10px 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: white;
+  opacity: 0.85; }
+
+.proximos-eventos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.proximos-eventos__caja {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 20px;
+  padding: 15px; }
+  .proximos-eventos__caja img {
+    width: 300px; }
+  .proximos-eventos__caja h3 {
+    font-size: 20px; }
+  .proximos-eventos__caja a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto 50px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #e8e2e3;
+    color: black; }
+
+/*SOBRE NOSOTROS*/
+.banner-sobre-nosotros--img {
+  background-image: url(../img/guitars-2912447_1920.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  opacity: 0.9; }
+
+.nosotros img {
+  width: 500px;
+  margin: 20px;
+  padding: 20px; }
+
+/*CONTACTO*/
+/* parallax imagen contacto*/
+.banner-contacto--img {
+  background-image: url(../img/hd-wallpaper-1056764_1920.jpg);
+  padding: 60px;
+  opacity: 0.85; }
+
+.formulario-contacto {
+  border: 3px solid white;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-size: 18x;
+  padding: 10px 5px;
+  margin: 5px;
+  background-color: black;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; }
+
+.texto-formulario {
+  padding: 5px 20px; }
+
+.boton-contacto {
+  text-decoration: none;
+  padding: 5px; }
+
+/* ANIMACIONES */
+@keyframes animacion-logo {
+  0% {
+    transform: rotate(1deg); }
+  10% {
+    transform: rotate(10deg); }
+  20% {
+    transform: rotate(10deg); }
+  30% {
+    transform: rotate(10deg); }
+  40% {
+    transform: rotate(10deg); }
+  50% {
+    transform: rotate(5deg); }
+  60% {
+    transform: rotate(-5deg); }
+  70% {
+    transform: rotate(-10deg); }
+  80% {
+    transform: rotate(-10deg); }
+  90% {
+    transform: rotate(-10deg); }
+  100% {
+    transform: rotate(-1deg); } }
+
+/* MEDIAS QUERIES */
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo img {
+    padding: 10px; }
+  .header__botones {
+    flex-direction: column; }
+  .banner-logo {
+    width: 300px; }
+  .logos-menu__cajas {
+    margin: 10px;
+    padding: 5px; }
+    .logos-menu__cajas img {
+      height: 80px;
+      padding: 5px; }
+  .home-principal {
+    margin: 1% 4%; }
+    .home-principal h1 {
+      font-size: 40px;
+      text-align: center; }
+  .publicacion {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px; }
+    .publicacion img {
+      margin: 5px 0px;
+      width: auto;
+      height: 200px; }
+  .publicaciones__contenido {
+    align-items: center; }
+  .footer {
+    justify-content: center;
+    text-align: center; }
+  .redes-sociales {
+    padding: 10px;
+    align-items: center; }
+  .entradas-principal {
+    margin: 1% 2%;
+    padding: 10px 10px; }
+  .banner-entradas--img {
+    padding: 5px; }
+  .banner-productos--img h3,
+  .nosotros p,
+  .banner-entradas--img p,
+  .banner-sobre-nosotros--img P {
+    font-size: 20px;
+    margin: 10px; }
+  .texto-bienvenida3 {
+    font-size: 35px;
+    padding: 10px;
+    text-align: center; }
+  .banner-sobre-nosotros--img {
+    padding: 0; }
+  #proximos-eventos {
+    margin: 2% 2%;
+    padding: 5px;
+    align-items: center; }
+  .proximos-eventos {
+    justify-content: center; }
+  .proximos-eventos__caja {
+    margin: 0; }
+  .banner-contacto--img {
+    padding: 0; }
+  .formulario-contacto {
+    padding: 5px;
+    align-items: normal; }
+  .boton-contacto {
+    margin: 10px; }
+  .texto-bienvenida2 {
+    font-size: 30px;
+    padding-top: 10px; } }
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .parallax {
+    height: 100%; }
+  .banner-sobre-nosotros--img p {
+    margin: 0; }
+  .footer {
+    justify-content: center;
+    text-align: center; }
+  .redes-sociales {
+    padding: 10px;
+    align-items: center; }
+  .header {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+  .header__logo img {
+    padding: 10px;
+    width: 300px;
+    height: auto; }
+  .header__botones {
+    flex-direction: row; } }

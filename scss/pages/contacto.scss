@@ -1,0 +1,35 @@
+
+/*CONTACTO*/
+
+/* parallax imagen contacto*/
+.banner-contacto--img{
+    background-image: url(../img/hd-wallpaper-1056764_1920.jpg);
+    padding: 60px;
+    opacity: 0.85;
+}
+
+.formulario-contacto{
+    border: 3px solid white;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18x;
+    padding: 10px 5px;
+    margin: 5px;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-formulario{
+    padding: 5px 20px;
+}
+
+.boton-contacto{
+    text-decoration: none;
+    padding: 5px;
+}

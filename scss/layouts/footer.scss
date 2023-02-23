@@ -1,0 +1,39 @@
+/* FOOTER */
+.footer{    
+    background-color:#130408 ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer__nombre{
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Audiowide', cursive;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.redes-sociales img{   
+    margin: 0 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.enlaces__links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    a{
+        margin: 0 10px;
+        text-decoration: none;
+        color: white; 
+    }
+}
+
+.footer__copyright{
+    color: white;
+}

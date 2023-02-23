@@ -1,0 +1,52 @@
+/* PROXIMOS EVENTOS*/ 
+
+.banner-proximos-eventos--img{
+    background-image: url(../img/banner-proximosEventos.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    opacity: 0.85;
+}
+
+#proximos-eventos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 1% 8%;   
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.85;
+}
+
+.proximos-eventos{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.proximos-eventos__caja{
+    display: flex;
+    flex-direction: column;;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    img{
+        width: 300px;    }
+    h3{
+        font-size: 20px;    }
+    a{
+        font-size: 20px;
+        text-decoration: none;
+        margin: auto 50px;
+        border-radius: 5px;
+        border: 2px solid black;
+        background-color: #e8e2e3;
+        color: black;    }
+}
