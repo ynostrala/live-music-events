@@ -36,16 +36,19 @@
     .publicacion{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding: 5px;
         margin: 5px;
         img{
-            margin: 5px 0px;
-            width: auto;
-            height: 200px;
+            width: 100%;
+            padding: 5px 0px;
         }
     }
     .publicaciones__contenido{
         align-items: center;
+            p{
+                padding-right: 0;
+            }
     }
     .footer{
         justify-content: center;
@@ -70,9 +73,9 @@
         margin: 10px;
     }
     .texto-bienvenida3{
-        font-size: 35px;
-        padding: 10px;
+        font-size: 30px;
         text-align: center;
+        padding: 10px;
     }
     .banner-sobre-nosotros--img {
         padding: 0;
@@ -136,5 +139,38 @@
     }
     .header__botones{
         flex-direction: row;
+    }
+    .publicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+        img{
+            width: 100%;
+            padding: 5px 0px;
+        }
+    }
+    .publicaciones__contenido{
+        align-items: center;
+        p{
+            padding-right: 0;
+        }
+    }
+
+    .banner-logo{
+        width: 400px;
+    }
+    .banner-productos--img h3,
+    .nosotros p,
+    .banner-entradas--img p,
+    .banner-sobre-nosotros--img P {
+        font-size: 20px;
+        margin: 10px;
+    }
+    .texto-bienvenida3{
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
     }
 }

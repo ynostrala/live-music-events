@@ -29,6 +29,7 @@ html, body, .container-fluid {
     font-family: 'Audiowide', cursive;
 	font-size: 50px;
 	font-weight: bold;
+    align-items: center;
 }
 
 .row{
@@ -61,4 +62,17 @@ html, body, .container-fluid {
 .banner-img{
     display: flex;
     padding: 40px;
+}
+
+.banner-logo{
+    width: 500px;
+}
+
+.texto-bienvenida{
+    color:#ffff;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Audiowide', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
 }

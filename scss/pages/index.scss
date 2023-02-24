@@ -20,19 +20,6 @@
     padding: 20px;
 }
 
-.banner-logo{
-    width: 500px;
-}
-
-.texto-bienvenida{
-    color:#ffff;
-    font-family: 'Abel', sans-serif;
-    font-family: 'Audiowide', cursive;
-	font-size: 50px;
-	font-weight: bold;
-	text-align: center;
-}
-
 /* BANNER LOGOS */
 .logos-menu{
     display: flex;
@@ -81,53 +68,6 @@
     }
 }
 
-.publicacion{
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    margin: 20px;
-    img{
-        margin: 10px 0px;
-        width: 500px;
-        height: auto;
-    }
-}
-
-.publicaciones__contenido{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 5px 30px;
-    p{
-        font-size: 18px;
-        text-align: justify;
-    }
-    button{
-        text-decoration:none;
-        font-weight: 600;
-        font-size: 17px;
-        color:#ffffff;
-        width: 100px;
-        height: 40px;
-        padding:5px ;
-        border-radius: 8px;
-        background-color:rgb(112, 109, 102);
-        border-color: black;
-        border-width: 2px;
-        border-style: solid;
-    }
-}
-
-.pubilcaciones__contenido--titulo{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.pubilcaciones__contenido--precio{
-    font-size: 18px;
-    font-weight: 700;
-}
 
 .parallax2{
     background-attachment: fixed;
