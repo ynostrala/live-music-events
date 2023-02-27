@@ -10,13 +10,16 @@
     .header__logo{
         img{
             padding: 10px;
+            width: 100%;
+            height: auto;
         }
     }
     .header__botones{
         flex-direction: column;
     } 
     .banner-logo{
-        width: 300px;
+        width: 99%;
+        padding: 1%;
     }
     .logos-menu__cajas{
         margin: 10px;
@@ -31,6 +34,32 @@
         h1{
             font-size: 40px;
             text-align: center;
+        }
+    }
+
+    .home-secundario{
+        padding: 0;
+    }
+    .proximos-eventos__home-caja{
+        padding: 5px;
+        margin: 5px;
+        height: 100%;
+    }
+
+    .caja-productos{
+        padding: 5px;
+    }
+    .prod__caja{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .proximos-eventos__home--grilla{
+        flex-direction: column;
+        img{
+            width: 100%;
         }
     }
     .publicacion{
@@ -77,7 +106,12 @@
         text-align: center;
         padding: 10px;
     }
-    .banner-sobre-nosotros--img {
+    .banner-sobre-nosotros--img{
+        padding: 0;
+    }
+    .banner-proximos-eventos--img {
+        justify-content: space-evenly;
+        height: 600px;
         padding: 0;
     }
     #proximos-eventos {
@@ -90,6 +124,8 @@
     }
     .proximos-eventos__caja {
         margin: 0;
+        img{
+            width: 100%;    }
     }
     .banner-contacto--img {
         padding: 0;
@@ -173,4 +209,46 @@
         text-align: center;
         padding: 10px;
     }
+
+    #proximos-eventos {
+        margin: 2% 2%; 
+        padding: 5px;
+        align-items: center;
+    }
+    .proximos-eventos {
+        justify-content: center;
+    }
+    .proximos-eventos__caja {
+        margin: 0;
+        img{
+            width: 100%;    }
+    }
+
+    .home-secundario{
+        padding: 0;
+    }
+    .proximos-eventos__home-caja{
+        padding: 5px;
+        margin: 5px;
+        height: 100%;
+    }
+
+    .proximos-eventos__home--grilla{
+        flex-direction: column;
+        img{
+            width: 80%;
+        }
+    }
+
+    .caja-productos{
+        padding: 5px;
+    }
+
+    .prod__caja{
+        width: 90%;
+        img{
+            width: 80%;
+        }
+    }
+
 }
