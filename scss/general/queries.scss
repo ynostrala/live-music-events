@@ -141,6 +141,14 @@
         font-size: 30px;
         padding-top: 10px;
     }
+
+    .banner-productos--img{
+        padding: 0;
+        h3{
+            padding: 5px;
+            margin: 0;
+        }
+    }
 }
 
 @media (min-width:576px) and (max-width:992px) {
@@ -197,12 +205,13 @@
     .banner-logo{
         width: 400px;
     }
+
     .banner-productos--img h3,
     .nosotros p,
     .banner-entradas--img p,
     .banner-sobre-nosotros--img P {
         font-size: 20px;
-        margin: 10px;
+        margin: 0;
     }
     .texto-bienvenida3{
         font-size: 35px;
