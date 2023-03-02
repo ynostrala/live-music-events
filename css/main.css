@@ -90,16 +90,18 @@ body {
 
 /*HEADER*/
 .header {
-  background-color: #130408;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center; }
 
 .header__logo img {
   width: 150px;
   height: 80px; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
 
 .header__botones {
   display: flex;
@@ -183,7 +185,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.908); }
 
 .logos-menu__cajas {
@@ -535,10 +537,12 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; }
-  .header__logo img {
-    padding: 10px;
-    width: 100%;
-    height: auto; }
+  .header__logo {
+    text-align: center; }
+    .header__logo img {
+      padding: 10px;
+      width: 85%;
+      height: auto; }
   .header__botones {
     flex-direction: column; }
   .banner-logo {
@@ -555,18 +559,22 @@ body {
     .home-principal h1 {
       font-size: 40px;
       text-align: center; }
+  .texto-bienvenida {
+    font-size: 40px; }
   .home-secundario {
     padding: 0; }
   .proximos-eventos__home-caja {
     padding: 5px;
     margin: 5px;
-    height: 100%; }
+    height: 100%;
+    opacity: 0.95; }
   .caja-productos {
     padding: 5px; }
   .prod__caja {
-    width: 100%; }
+    width: 100%;
+    opacity: 0.95; }
     .prod__caja img {
-      width: 100%; }
+      width: 85%; }
   .proximos-eventos__home--grilla {
     flex-direction: column; }
     .proximos-eventos__home--grilla img {
@@ -649,14 +657,12 @@ body {
     padding: 10px;
     align-items: center; }
   .header {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center; }
   .header__logo img {
     padding: 10px;
-    width: 300px;
-    height: auto; }
+    height: 150px;
+    width: auto; }
   .header__botones {
     flex-direction: row; }
   .publicacion {
@@ -674,6 +680,15 @@ body {
       padding-right: 0; }
   .banner-logo {
     width: 400px; }
+  .logos-menu__cajas {
+    padding: 5px;
+    margin: 5px; }
+    .logos-menu__cajas img {
+      padding: 5px;
+      margin: 5px;
+      height: 80px; }
+    .logos-menu__cajas h4 {
+      font-size: 20px; }
   .banner-productos--img h3,
   .nosotros p,
   .banner-entradas--img p,
@@ -697,16 +712,19 @@ body {
   .home-secundario {
     padding: 0; }
   .proximos-eventos__home-caja {
-    padding: 5px;
-    margin: 5px;
-    height: 100%; }
+    padding: 15px;
+    margin: 35px;
+    height: 100%;
+    opacity: 0.95; }
   .proximos-eventos__home--grilla {
     flex-direction: column; }
     .proximos-eventos__home--grilla img {
       width: 80%; }
   .caja-productos {
-    padding: 5px; }
+    padding: 15px;
+    margin: 35px;
+    opacity: 0.95; }
   .prod__caja {
     width: 90%; }
     .prod__caja img {
-      width: 80%; } }
+      width: 70%; } }

@@ -8,9 +8,10 @@
         align-items: center;
     }
     .header__logo{
+        text-align: center;
         img{
             padding: 10px;
-            width: 100%;
+            width: 85%;
             height: auto;
         }
     }
@@ -37,6 +38,9 @@
         }
     }
 
+    .texto-bienvenida{
+        font-size: 40px;
+    }
     .home-secundario{
         padding: 0;
     }
@@ -44,6 +48,7 @@
         padding: 5px;
         margin: 5px;
         height: 100%;
+        opacity: 0.95;
     }
 
     .caja-productos{
@@ -51,8 +56,9 @@
     }
     .prod__caja{
         width: 100%;
+        opacity: 0.95;
         img{
-            width: 100%;
+            width: 85%;
         }
     }
 
@@ -169,16 +175,14 @@
         align-items: center;
     }
     .header{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
     .header__logo{
         img{
             padding: 10px;
-            width: 300px;
-            height: auto;
+            height: 150px;
+            width: auto;
         }
     }
     .header__botones{
@@ -206,6 +210,18 @@
         width: 400px;
     }
 
+    .logos-menu__cajas{
+        padding: 5px;
+        margin: 5px;
+        img{
+            padding: 5px;
+            margin: 5px;
+            height: 80px;
+        }
+        h4{
+            font-size: 20px;
+        }
+    }
     .banner-productos--img h3,
     .nosotros p,
     .banner-entradas--img p,
@@ -237,9 +253,10 @@
         padding: 0;
     }
     .proximos-eventos__home-caja{
-        padding: 5px;
-        margin: 5px;
+        padding: 15px;
+        margin: 35px;
         height: 100%;
+        opacity: 0.95;
     }
 
     .proximos-eventos__home--grilla{
@@ -250,13 +267,15 @@
     }
 
     .caja-productos{
-        padding: 5px;
+        padding: 15px;
+        margin:35px;
+        opacity: 0.95;
     }
 
     .prod__caja{
         width: 90%;
         img{
-            width: 80%;
+            width: 70%;
         }
     }
 

@@ -18,47 +18,72 @@
 
     <body>
         <header id="header">
-            <section class="header">
-                <a class="header__logo" href="#"><img src="./img/logo_white_large.png" alt="logo"></a>
-                <nav class="header__botones">
-                    <a href="#">Inicio</a>
-                    <a href="./pag/entradas.html">Entradas</a>
-                    <a href="./pag/productos.html">Productos</a>
-                    <a href="./pag/proximos-eventos.html">Proximos Eventos</a>
-                    <a href="./pag/sobre-nosotros.html">Sobre Nosotros</a>
-                    <a href="./pag/contacto.html">Contacto</a>
-                </nav>
-            </section>
+            <nav class="navbar-dark bg-dark navbar-expand-lg " data-bs-theme="dark">
+                <div class="container-fluid header p-1">
+                    <a class="navbar-brand header__logo" href="#">
+                        <img src="./img/logo_white_large.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item header__botones p-2">
+                                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item header__botones p-2">
+                                <a class="nav-link" href="./pag/entradas.html">Entradas</a>
+                            </li>
+                            <li class="nav-item header__botones p-2">
+                                <a class="nav-link" href="./pag/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item header__botones p-2">
+                                <a class="nav-link" href="./pag/proximos-eventos.html">Proximos Eventos</a>
+                            </li>
+                            <li class="nav-item header__botones p-2">
+                                <a class="nav-link" href="./pag/sobre-nosotros.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item header__botones p-2">
+                                <a class="nav-link" href="./pag/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
 
-        <main id="main">
+        <main id="main" class="container-fluid">
             <!-- BANNER HOME -->
-            <section class="parallax banner-inicio--img"> <!-- parallax -->
-                <img class="banner-logo" src="./img/logo_white_large.png" alt="logo-banner"> 
-                <h1 class="texto-bienvenida">LIVE MUSIC EVENTS</h1>
+            <section class="row">
+                <div class="parallax banner-inicio--img"> <!-- parallax -->
+                    <img class="banner-logo col-12" src="./img/logo_white_large.png" alt="logo-banner"> 
+                    <h1 class="texto-bienvenida col-12">LIVE MUSIC EVENTS</h1>
+                </div>
             </section>
 
             <!-- BANNER LOGOS -->
-            <section class="logos-menu">
-                <div class="logos-menu__cajas">
-                    <a href="./pag/entradas.html"><img src="./img/entradas-logo.png" alt=""></a>
-                    <h4>Entradas</h4>
-                </div>
-                <div class="logos-menu__cajas">
-                    <a href="./pag/productos.html"><img src="./img/productos-logo.png" alt=""></a>
-                    <h4>Productos</h4>
-                </div>
-                <div class="logos-menu__cajas">
-                    <a href="./pag/proximos-eventos.html"><img src="./img/proximos-eventos-logo.png" alt=""></a>
-                    <h4>Proximos Eventos</h4>
-                </div>
-                <div class="logos-menu__cajas">
-                    <a href="./pag/sobre-nosotros.html"><img src="./img/sobre-nosotros-logo.png" alt=""></a>
-                    <h4>Sobre Nosotros</h4>
-                </div>
-                <div class="logos-menu__cajas">
-                    <a href="./pag/contacto.html"><img src="./img/contacto-logo.png" alt=""></a>
-                    <h4>Contacto</h4>
+            <section class="row">
+                <div class="logos-menu col-12">
+                    <div class="logos-menu__cajas ">
+                        <a href="./pag/entradas.html"><img src="./img/entradas-logo.png" alt=""></a>
+                        <h4>Entradas</h4>
+                    </div>
+                    <div class="logos-menu__cajas ">
+                        <a href="./pag/productos.html"><img src="./img/productos-logo.png" alt=""></a>
+                        <h4>Productos</h4>
+                    </div>
+                    <div class="logos-menu__cajas ">
+                        <a href="./pag/proximos-eventos.html"><img src="./img/proximos-eventos-logo.png" alt=""></a>
+                        <h4>Proximos Eventos</h4>
+                    </div>
+                    <div class="logos-menu__cajas ">
+                        <a href="./pag/sobre-nosotros.html"><img src="./img/sobre-nosotros-logo.png" alt=""></a>
+                        <h4>Sobre Nosotros</h4>
+                    </div>
+                    <div class="logos-menu__cajas ">
+                        <a href="./pag/contacto.html"><img src="./img/contacto-logo.png" alt=""></a>
+                        <h4>Contacto</h4>
+                    </div>
                 </div>
             </section>
 
@@ -157,7 +182,7 @@
         </main>
 
         <footer id="footer">
-            <section class="footer">
+            <section class="footer bg-dark">
                 <p class="footer__nombre">LIVE MUSIC EVENTS</p>
                 <p class="footer__copyright">Copyright © 2023 Nostrala Yamil. Todos los derechos reservados.</p>
                 <div class="redes-sociales">
