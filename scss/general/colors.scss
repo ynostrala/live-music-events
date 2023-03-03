@@ -10,3 +10,8 @@ body{
 #main{
     background-color: #2c2c2c;
 }
+
+@mixin color($color, $bg-color){
+    color: $color;
+    background-color: $bg-color;
+}

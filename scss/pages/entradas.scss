@@ -48,18 +48,16 @@
         text-decoration:none;
         font-weight: 600;
         font-size: 16px;
-        color:#ffffff;
+        @include color(#ffffff, rgb(112, 109, 102));
         width: 70px;
         height: 30px;
         padding:0;
         border-radius: 8px;
-        background-color:rgb(112, 109, 102);
         border-color: black;
         border-width: 2px;
         border-style: solid;
         &:hover{
-            background-color: wheat;
-            color: black;
+            @include color(black, wheat);
         }
     }
 }

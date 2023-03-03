@@ -162,10 +162,9 @@
         text-decoration:none;
         font-weight: 500;
         font-size: 12px;
-        color:#ffffff;
+        @include color(#ffffff,rgb(112, 109, 102));
         padding: 3px 10px;
         margin: 5px;
-        background-color:rgb(112, 109, 102);
         border-radius: 3px;
         border-color: black;
         border-width: 2px;
@@ -175,18 +174,16 @@
         text-decoration:none;
         font-weight: 400;
         font-size: 14px;
-        color:#ffffff;
+        @include color(#ffffff, rgb(112, 109, 102));
         width: 50px;
         height: 25px;
         margin-bottom: 5px;
         border-radius: 8px;
-        background-color:rgb(112, 109, 102);
         border-color: black;
         border-width: 2px;
         border-style: solid;
         &:hover{
-            background-color: wheat;
-            color: black;
+            @include color(black,wheat);
         }
     }
 }

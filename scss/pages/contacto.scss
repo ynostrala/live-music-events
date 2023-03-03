@@ -10,7 +10,7 @@
 
 .formulario-contacto{
     border: 3px solid white;
-    color: white;
+    @include color(#ffffff, black);
     font-weight: 700;
     text-align: center;
     font-size: 18x;
