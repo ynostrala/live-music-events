@@ -296,7 +296,8 @@ body {
     margin: 10px;
     border-radius: 30px; }
   .prod__caja h3 {
-    font-weight: 700; }
+    font-weight: 400;
+    font-size: 20px; }
   .prod__caja a {
     text-decoration: none;
     font-weight: 500;
