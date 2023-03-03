@@ -2,7 +2,7 @@
 /*SOBRE NOSOTROS*/
 
 .banner-sobre-nosotros--img{
-    background-image: url(../img/pexels-brett-sayles-4031039.jpg);
+    background-image: url(../img/banner-sobre-nosotros.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,5 +17,14 @@
     margin: 20px;
     padding: 20px;
     }
+}
+
+.caja-sn{
+    opacity: 0.7;
+    background-color: black;
+    border: 0 solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
 }
 

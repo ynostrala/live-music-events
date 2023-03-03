@@ -73,3 +73,8 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+.caja-entradas{
+    @extend .caja-sn;
+    margin: 0 50px;
+}

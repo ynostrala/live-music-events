@@ -171,7 +171,7 @@ body {
   position: relative; }
 
 .banner-inicio--img {
-  background-image: url(../img/concert-3387324_1920.jpg);
+  background-image: url(../img/banner1-inicio.jpg);
   opacity: 0.9;
   display: flex;
   flex-direction: column;
@@ -215,7 +215,7 @@ body {
   border-radius: 30px;
   background-color: white;
   opacity: 0.85; }
-  .home-principal h1 {
+  .home-principal h2 {
     font-size: 40px;
     font-weight: 700;
     margin: 10px 30px;
@@ -244,7 +244,7 @@ body {
 
 /* Parallax imagen fondo 2 */
 .banner-inicio--img2 {
-  background-image: url(../img/audience-1867754_1920.jpg);
+  background-image: url(../img/banner2-inicio.jpg);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
@@ -309,6 +309,22 @@ body {
     border-color: black;
     border-width: 2px;
     border-style: solid; }
+  .prod__caja button {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    width: 50px;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    background-color: #706d66;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; }
+    .prod__caja button:hover {
+      background-color: wheat;
+      color: black; }
 
 .proximos-eventos__home-caja {
   padding: 50px;
@@ -401,9 +417,12 @@ body {
   font-size: 16px;
   font-weight: 700; }
 
+.caja-entradas {
+  margin: 0 50px; }
+
 /*PRODUCTOS ok*/
 .banner-productos--img {
-  background-image: url(../img/musician-664432_1920.jpg);
+  background-image: url(../img/banner-productos.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -459,10 +478,15 @@ body {
     border: 2px solid black;
     background-color: #e8e2e3;
     color: black; }
+  .proximos-eventos__caja button {
+    border-radius: 8px; }
+    .proximos-eventos__caja button:hover {
+      font-weight: 700;
+      background-color: antiquewhite; }
 
 /*SOBRE NOSOTROS*/
 .banner-sobre-nosotros--img {
-  background-image: url(../img/pexels-brett-sayles-4031039.jpg);
+  background-image: url(../img/banner-sobre-nosotros.jpg);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -475,10 +499,18 @@ body {
   margin: 20px;
   padding: 20px; }
 
+.caja-sn, .caja-entradas {
+  opacity: 0.7;
+  background-color: black;
+  border: 0 solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px; }
+
 /*CONTACTO*/
 /* parallax imagen contacto*/
 .banner-contacto--img {
-  background-image: url(../img/hd-wallpaper-1056764_1920.jpg);
+  background-image: url(../img/banner-contacto.jpg);
   padding: 60px;
   opacity: 0.85; }
 
@@ -608,7 +640,8 @@ body {
   .banner-entradas--img p,
   .banner-sobre-nosotros--img P {
     font-size: 20px;
-    margin: 10px; }
+    margin: 3px;
+    padding: 8px; }
   .texto-bienvenida3 {
     font-size: 30px;
     text-align: center;
@@ -643,7 +676,10 @@ body {
     padding: 0; }
     .banner-productos--img h3 {
       padding: 5px;
-      margin: 0; } }
+      margin: 0; }
+  .caja-entradas {
+    margin: 0;
+    padding: 5px; } }
 
 @media (min-width: 576px) and (max-width: 992px) {
   .parallax {
@@ -661,7 +697,7 @@ body {
     align-items: center; }
   .header__logo img {
     padding: 10px;
-    height: 150px;
+    height: 100px;
     width: auto; }
   .header__botones {
     flex-direction: row; }
@@ -694,7 +730,8 @@ body {
   .banner-entradas--img p,
   .banner-sobre-nosotros--img P {
     font-size: 20px;
-    margin: 0; }
+    margin: 0;
+    padding: 10px; }
   .texto-bienvenida3 {
     font-size: 35px;
     text-align: center;

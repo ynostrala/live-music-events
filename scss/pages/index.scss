@@ -11,7 +11,7 @@
 }
 
 .banner-inicio--img{
-    background-image: url(../img/concert-3387324_1920.jpg);
+    background-image: url(../img/banner1-inicio.jpg);
     opacity: 0.9;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@
     border-radius: 30px;
     background-color: white;
     opacity: 0.85;
-    h1{
+    h2{
         font-size: 40px;
         font-weight: 700;
         margin: 10px 30px;
@@ -96,7 +96,7 @@
 
 /* Parallax imagen fondo 2 */
 .banner-inicio--img2{
-    background-image: url(../img/audience-1867754_1920.jpg);
+    background-image: url(../img/banner2-inicio.jpg);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -169,6 +169,24 @@
         border-color: black;
         border-width: 2px;
         border-style: solid;
+    }
+    button{
+        text-decoration:none;
+        font-weight: 400;
+        font-size: 14px;
+        color:#ffffff;
+        width: 50px;
+        height: 25px;
+        margin-bottom: 5px;
+        border-radius: 8px;
+        background-color:rgb(112, 109, 102);
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        &:hover{
+            background-color: wheat;
+            color: black;
+        }
     }
 }
 
