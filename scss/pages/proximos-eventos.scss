@@ -30,6 +30,14 @@
     flex-wrap: wrap;
 }
 
+.prox-titulo{
+    text-align: center;
+    @include color(white, black);
+    opacity: 0.75;
+    padding: 6px;
+    border-radius: 20px;
+}
+
 .proximos-eventos__caja{
     display: flex;
     flex-direction: column;;

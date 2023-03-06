@@ -3,9 +3,7 @@
 @media (max-width:576px) {
     .header{
         flex-direction: column;
-        flex-wrap: wrap;
         justify-content: space-between;
-        align-items: center;
     }
     .header__logo{
         text-align: center;
@@ -35,6 +33,12 @@
         h1{
             font-size: 40px;
             text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+            margin: 5px;
+            padding: 5px;
         }
     }
 
@@ -69,7 +73,6 @@
         }
     }
     .publicacion{
-        display: flex;
         flex-direction: column;
         align-items: center;
         padding: 5px;
@@ -81,9 +84,9 @@
     }
     .publicaciones__contenido{
         align-items: center;
-            p{
-                padding-right: 0;
-            }
+        p{
+            padding-right: 0;
+        }
     }
     .footer{
         justify-content: center;
@@ -96,6 +99,9 @@
     .entradas-principal{
         margin: 1% 2%;   
         padding: 10px 10px;
+        h2{
+            text-align: center;
+        }
     }
     .banner-entradas--img {
         padding: 5px;
@@ -140,6 +146,7 @@
     .formulario-contacto {
         padding: 5px;
         align-items: normal;
+        margin: 20px 0px 50px 0px;
     }
     .boton-contacto {
         margin: 10px;
@@ -157,6 +164,10 @@
         }
     }
 
+    .caja-sn{
+        margin-bottom: 30px;
+    }
+    
     .caja-entradas{
         margin: 0;
         padding: 5px;
@@ -195,7 +206,6 @@
         flex-direction: row;
     }
     .publicacion{
-        display: flex;
         flex-direction: column;
         align-items: center;
         padding: 5px;
@@ -211,7 +221,12 @@
             padding-right: 0;
         }
     }
-
+    .patrocinios{
+        img{
+            height: 100px;
+            padding: 10px;
+        }
+    }
     .banner-logo{
         width: 400px;
     }
@@ -225,7 +240,7 @@
             height: 80px;
         }
         h4{
-            font-size: 20px;
+            font-size: 16px;
         }
     }
     .banner-productos--img h3,
@@ -272,6 +287,10 @@
             width: 80%;
         }
     }
+    .caja-entradas{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     .caja-productos{
         padding: 15px;
@@ -284,6 +303,14 @@
         img{
             width: 70%;
         }
+    }
+    .entradas-principal{
+        h2{
+            text-align: center;
+        }
+    }
+    .caja-sn{
+        margin-top: 30px;
     }
 
 }

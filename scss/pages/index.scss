@@ -68,6 +68,15 @@
     }
 }
 
+.home-titulo{
+    text-align: center;
+    @include color(white, black);
+    opacity: 0.75;
+    margin: 10px 40px 10px 40px;
+    padding: 5px !important;
+    border-radius: 20px;
+}
+
 
 .parallax2{
     background-attachment: fixed;
@@ -120,7 +129,7 @@
     border-color: #130408;
     opacity: 0.9;
     margin: 10px;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -129,6 +138,11 @@
     font-size: 40px;
     font-weight: 500;
     text-align: center;
+    @include color(white, black);
+    opacity: 0.75;
+    margin: 20px;
+    border-radius: 20px;
+    
 }
 
 .caja-productos--prod{
@@ -149,10 +163,13 @@
     border-radius: 30px;
     background-color: #e8e2e3;
     img{
-        width: 150px;
+        width: 200px;
         padding: 10px;
         margin: 10px;
         border-radius: 30px;
+        &:hover{
+            background-color: #cfcbcb;
+        }
     }
     h3{
         font-weight: 400;
@@ -189,18 +206,20 @@
 }
 
 .proximos-eventos__home-caja{
-    padding: 50px;
-    margin: 20px;
+    padding: 20px;
+    margin: 15px;
     border: 5px solid black;
     border-radius: 50px;
     background-color:#3F1214ff;
     opacity: 0.8;
     h2{
-        color: #ffff;
+        @include color(white, rgba(32, 5, 8, 0.874));
+        opacity: 0.75;
+        padding: 5px;
+        border-radius: 25px;
         text-align: center;
         font-weight: bold;
         font-size: 20px;
-        padding-bottom: 15px;
     }
 }
 
@@ -209,7 +228,7 @@
     flex-direction: row;
     align-items: center;
     img{
-        width: 90px;
+        width: 130px;
         margin: 5px;
         padding: 5px;
     }

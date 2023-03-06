@@ -7,9 +7,6 @@
 html, body, .container-fluid {
   height: 100%; }
 
-.texto-izq {
-  align-items: flex-start; }
-
 .texto-bienvenida2 {
   color: #ffff;
   font-family: 'Abel', sans-serif;
@@ -221,6 +218,15 @@ body {
     margin: 10px 30px;
     padding: 10px 30px; }
 
+.home-titulo {
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+  margin: 10px 40px 10px 40px;
+  padding: 5px !important;
+  border-radius: 20px; }
+
 .parallax2 {
   background-attachment: fixed;
   background-position: center;
@@ -265,14 +271,19 @@ body {
   border-color: #130408;
   opacity: 0.9;
   margin: 10px;
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column; }
 
 .caja-productos--titulo {
   font-size: 40px;
   font-weight: 500;
-  text-align: center; }
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+  margin: 20px;
+  border-radius: 20px; }
 
 .caja-productos--prod {
   display: flex;
@@ -291,10 +302,12 @@ body {
   border-radius: 30px;
   background-color: #e8e2e3; }
   .prod__caja img {
-    width: 150px;
+    width: 200px;
     padding: 10px;
     margin: 10px;
     border-radius: 30px; }
+    .prod__caja img:hover {
+      background-color: #cfcbcb; }
   .prod__caja h3 {
     font-weight: 400;
     font-size: 20px; }
@@ -328,25 +341,28 @@ body {
       background-color: wheat; }
 
 .proximos-eventos__home-caja {
-  padding: 50px;
-  margin: 20px;
+  padding: 20px;
+  margin: 15px;
   border: 5px solid black;
   border-radius: 50px;
   background-color: #3F1214ff;
   opacity: 0.8; }
   .proximos-eventos__home-caja h2 {
-    color: #ffff;
+    color: white;
+    background-color: rgba(32, 5, 8, 0.874);
+    opacity: 0.75;
+    padding: 5px;
+    border-radius: 25px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 15px; }
+    font-size: 20px; }
 
 .proximos-eventos__home--grilla {
   display: flex;
   flex-direction: row;
   align-items: center; }
   .proximos-eventos__home--grilla img {
-    width: 90px;
+    width: 130px;
     margin: 5px;
     padding: 5px; }
   .proximos-eventos__home--grilla h3 {
@@ -364,6 +380,15 @@ body {
   .entradas-principal h2 {
     font-size: 25px;
     font-weight: bold; }
+
+.entradas-titulo {
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+  margin: 10px 40px 10px 40px;
+  padding: 10px;
+  border-radius: 20px; }
 
 .banner-entradas--img {
   background-image: url(../img/banner-entradas.jpg);
@@ -410,10 +435,6 @@ body {
       color: black;
       background-color: wheat; }
 
-.pubilcaciones__contenido--titulo {
-  font-size: 30px;
-  font-weight: bold; }
-
 .pubilcaciones__contenido--precio {
   font-size: 16px;
   font-weight: 700; }
@@ -458,6 +479,14 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
+
+.prox-titulo {
+  text-align: center;
+  color: white;
+  background-color: black;
+  opacity: 0.75;
+  padding: 6px;
+  border-radius: 20px; }
 
 .proximos-eventos__caja {
   display: flex;
@@ -539,6 +568,14 @@ body {
   text-decoration: none;
   padding: 5px; }
 
+.contacto-titulo {
+  background-color: black;
+  opacity: 0.75;
+  border-radius: 8px;
+  padding: 5px !important;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
 /* ANIMACIONES */
 @keyframes animacion-logo {
   0% {
@@ -568,9 +605,7 @@ body {
 @media (max-width: 576px) {
   .header {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center; }
+    justify-content: space-between; }
   .header__logo {
     text-align: center; }
     .header__logo img {
@@ -593,6 +628,11 @@ body {
     .home-principal h1 {
       font-size: 40px;
       text-align: center; }
+    .home-principal h2 {
+      text-align: center;
+      font-size: 30px;
+      margin: 5px;
+      padding: 5px; }
   .texto-bienvenida {
     font-size: 40px; }
   .home-secundario {
@@ -614,7 +654,6 @@ body {
     .proximos-eventos__home--grilla img {
       width: 100%; }
   .publicacion {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
@@ -635,6 +674,8 @@ body {
   .entradas-principal {
     margin: 1% 2%;
     padding: 10px 10px; }
+    .entradas-principal h2 {
+      text-align: center; }
   .banner-entradas--img {
     padding: 5px; }
   .banner-productos--img h3,
@@ -668,7 +709,8 @@ body {
     padding: 0; }
   .formulario-contacto {
     padding: 5px;
-    align-items: normal; }
+    align-items: normal;
+    margin: 20px 0px 50px 0px; }
   .boton-contacto {
     margin: 10px; }
   .texto-bienvenida2 {
@@ -679,6 +721,8 @@ body {
     .banner-productos--img h3 {
       padding: 5px;
       margin: 0; }
+  .caja-sn, .caja-entradas {
+    margin-bottom: 30px; }
   .caja-entradas {
     margin: 0;
     padding: 5px; } }
@@ -704,7 +748,6 @@ body {
   .header__botones {
     flex-direction: row; }
   .publicacion {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
@@ -716,6 +759,9 @@ body {
     align-items: center; }
     .publicaciones__contenido p {
       padding-right: 0; }
+  .patrocinios img {
+    height: 100px;
+    padding: 10px; }
   .banner-logo {
     width: 400px; }
   .logos-menu__cajas {
@@ -726,7 +772,7 @@ body {
       margin: 5px;
       height: 80px; }
     .logos-menu__cajas h4 {
-      font-size: 20px; }
+      font-size: 16px; }
   .banner-productos--img h3,
   .nosotros p,
   .banner-entradas--img p,
@@ -759,6 +805,9 @@ body {
     flex-direction: column; }
     .proximos-eventos__home--grilla img {
       width: 80%; }
+  .caja-entradas {
+    margin-top: 20px;
+    margin-bottom: 20px; }
   .caja-productos {
     padding: 15px;
     margin: 35px;
@@ -766,4 +815,8 @@ body {
   .prod__caja {
     width: 90%; }
     .prod__caja img {
-      width: 70%; } }
+      width: 70%; }
+  .entradas-principal h2 {
+    text-align: center; }
+  .caja-sn, .caja-entradas {
+    margin-top: 30px; } }
