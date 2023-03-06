@@ -109,7 +109,6 @@ body {
     color: white;
     margin: 5px;
     font-weight: bold;
-    padding: 5px;
     border-radius: 10px; }
     .header__botones a:hover {
       background-color: white;
@@ -182,7 +181,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.908); }
 
 .logos-menu__cajas {
@@ -478,7 +477,8 @@ body {
 .proximos-eventos {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .prox-titulo {
   text-align: center;
