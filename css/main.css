@@ -416,7 +416,6 @@ body {
     margin: 0;
     padding-right: 50px; }
   .publicaciones__contenido button {
-    text-decoration: none;
     font-weight: 600;
     font-size: 16px;
     color: #ffffff;
@@ -431,6 +430,12 @@ body {
     .publicaciones__contenido button:hover {
       color: black;
       background-color: wheat; }
+    .publicaciones__contenido button a {
+      text-decoration: none;
+      color: #ffffff; }
+      .publicaciones__contenido button a:hover {
+        color: black;
+        background-color: wheat; }
 
 .pubilcaciones__contenido--precio {
   font-size: 16px;
