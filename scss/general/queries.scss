@@ -1,15 +1,15 @@
 
 /* MEDIAS QUERIES */
 @media (max-width:576px) {
-    .header{
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    // .header{
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    // }
     .header__logo{
         text-align: center;
         img{
             padding: 10px;
-            width: 85%;
+            // width: 85%;
             height: auto;
         }
     }
@@ -171,6 +171,11 @@
     .caja-entradas{
         margin: 0;
         padding: 5px;
+    }
+
+    .enlaces__links{
+        flex-direction: column;
+        align-items: center;
     }
 }
 

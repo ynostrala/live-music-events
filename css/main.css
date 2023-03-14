@@ -260,15 +260,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   padding: 100px 50px; }
 
 .caja-productos {
   border: 5px solid black;
   border-radius: 50px;
-  background-color: #fffcf8;
+  background-color: rgba(255, 252, 248, 0.688);
   border-color: #130408;
-  opacity: 0.9;
   margin: 10px;
   padding: 20px;
   display: flex;
@@ -299,7 +298,7 @@ body {
   align-items: center;
   margin: 10px;
   border-radius: 30px;
-  background-color: #e8e2e3; }
+  background-color: #e8e2e3cc; }
   .prod__caja img {
     width: 200px;
     padding: 10px;
@@ -344,8 +343,7 @@ body {
   margin: 15px;
   border: 5px solid black;
   border-radius: 50px;
-  background-color: #3F1214ff;
-  opacity: 0.8; }
+  background-color: rgba(63, 18, 20, 0.823); }
   .proximos-eventos__home-caja h2 {
     color: white;
     background-color: rgba(32, 5, 8, 0.874);
@@ -361,7 +359,7 @@ body {
   flex-direction: row;
   align-items: center; }
   .proximos-eventos__home--grilla img {
-    width: 130px;
+    width: 150px;
     margin: 5px;
     padding: 5px; }
   .proximos-eventos__home--grilla h3 {
@@ -530,12 +528,26 @@ body {
   padding: 20px; }
 
 .caja-sn, .caja-entradas {
-  opacity: 0.7;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.762);
   border: 0 solid black;
   border-radius: 8px;
   padding: 10px;
   margin: 5px; }
+
+.staff {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .staff .staff-caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; }
+    .staff .staff-caja img {
+      height: 400px;
+      width: auto;
+      border-radius: 50px; }
 
 /*CONTACTO*/
 /* parallax imagen contacto*/
@@ -553,8 +565,7 @@ body {
   font-size: 18x;
   padding: 10px 5px;
   margin: 5px;
-  background-color: black;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.762);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -569,8 +580,7 @@ body {
   padding: 5px; }
 
 .contacto-titulo {
-  background-color: black;
-  opacity: 0.75;
+  background-color: rgba(0, 0, 0, 0.762);
   border-radius: 8px;
   padding: 5px !important;
   margin-top: 20px;
@@ -603,14 +613,10 @@ body {
 
 /* MEDIAS QUERIES */
 @media (max-width: 576px) {
-  .header {
-    flex-direction: column;
-    justify-content: space-between; }
   .header__logo {
     text-align: center; }
     .header__logo img {
       padding: 10px;
-      width: 85%;
       height: auto; }
   .header__botones {
     flex-direction: column; }
@@ -725,7 +731,10 @@ body {
     margin-bottom: 30px; }
   .caja-entradas {
     margin: 0;
-    padding: 5px; } }
+    padding: 5px; }
+  .enlaces__links {
+    flex-direction: column;
+    align-items: center; } }
 
 @media (min-width: 576px) and (max-width: 992px) {
   .parallax {
