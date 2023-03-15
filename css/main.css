@@ -261,7 +261,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
-  padding: 100px 50px; }
+  padding: 50px 50px; }
 
 .caja-productos {
   border: 5px solid black;
@@ -365,6 +365,9 @@ body {
   .proximos-eventos__home--grilla h3 {
     color: white;
     font-size: 15px; }
+
+.playlist-spoty {
+  margin: 20px 5%; }
 
 /* ENTRADAS */
 .entradas-principal {

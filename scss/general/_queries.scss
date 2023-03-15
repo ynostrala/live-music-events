@@ -1,15 +1,10 @@
 
 /* MEDIAS QUERIES */
 @media (max-width:576px) {
-    // .header{
-    //     flex-direction: column;
-    //     justify-content: space-between;
-    // }
     .header__logo{
         text-align: center;
         img{
             padding: 10px;
-            // width: 85%;
             height: auto;
         }
     }
