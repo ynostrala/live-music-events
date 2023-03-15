@@ -11,6 +11,7 @@
         font-weight: bold;
     }
 }
+
 .entradas-titulo{
     text-align: center;
     @include color(white, black);
@@ -69,7 +70,6 @@
         }
     }
 }
-
 
 .pubilcaciones__contenido--precio{
     font-size: 16px;

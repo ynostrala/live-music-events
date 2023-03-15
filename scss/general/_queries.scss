@@ -36,7 +36,6 @@
             padding: 5px;
         }
     }
-
     .texto-bienvenida{
         font-size: 40px;
     }
@@ -49,7 +48,6 @@
         height: 100%;
         opacity: 0.95;
     }
-
     .caja-productos{
         padding: 5px;
     }
@@ -60,7 +58,6 @@
             width: 85%;
         }
     }
-
     .proximos-eventos__home--grilla{
         flex-direction: column;
         img{
@@ -133,7 +130,8 @@
     .proximos-eventos__caja {
         margin: 0;
         img{
-            width: 100%;    }
+            width: 100%;
+        }
     }
     .banner-contacto--img {
         padding: 0;
@@ -150,7 +148,6 @@
         font-size: 30px;
         padding-top: 10px;
     }
-
     .banner-productos--img{
         padding: 0;
         h3{
@@ -158,16 +155,13 @@
             margin: 0;
         }
     }
-
     .caja-sn{
         margin-bottom: 30px;
     }
-    
     .caja-entradas{
         margin: 0;
         padding: 5px;
     }
-
     .enlaces__links{
         flex-direction: column;
         align-items: center;
@@ -179,7 +173,7 @@
         height: 100%;
     }
     .banner-sobre-nosotros--img{
-        p {
+        p{
             margin: 0;
         }
     }
@@ -230,7 +224,6 @@
     .banner-logo{
         width: 400px;
     }
-
     .logos-menu__cajas{
         padding: 5px;
         margin: 5px;
@@ -246,7 +239,7 @@
     .banner-productos--img h3,
     .nosotros p,
     .banner-entradas--img p,
-    .banner-sobre-nosotros--img P {
+    .banner-sobre-nosotros--img P{
         font-size: 20px;
         margin: 0;
         padding: 10px;
@@ -256,7 +249,6 @@
         text-align: center;
         padding: 10px;
     }
-
     #proximos-eventos {
         margin: 2% 2%; 
         padding: 5px;
@@ -270,7 +262,6 @@
         img{
             width: 100%;    }
     }
-
     .home-secundario{
         padding: 0;
     }
@@ -280,7 +271,6 @@
         height: 100%;
         opacity: 0.95;
     }
-
     .proximos-eventos__home--grilla{
         flex-direction: column;
         img{
@@ -291,13 +281,11 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
     .caja-productos{
         padding: 15px;
         margin:35px;
         opacity: 0.95;
     }
-
     .prod__caja{
         width: 90%;
         img{
@@ -312,5 +300,4 @@
     .caja-sn{
         margin-top: 30px;
     }
-
 }
